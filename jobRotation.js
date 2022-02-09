@@ -1,4 +1,4 @@
-//imprimir(SOMA)
+//Desafio 1 Impimir a SOMA
 let indice = 13
 let soma = 0
 let k = 0
@@ -10,7 +10,7 @@ while(k < indice){
 
 console.log(soma)
 
-//Sequência de Fibonacci
+//Desafio 2 - Sequência de Fibonacci
 function generateFunctionFibonacci(number){
 
   let fibonacci = []
@@ -30,8 +30,9 @@ function generateFunctionFibonacci(number){
 let fNumber = generateFunctionFibonacci(10)
 console.log(fNumber)
 
+//Desafio 3 - Descubra a lógica e mostre o próximo valor:
 
-// Descubra a lógica e complete o próximo elemento:
+//Alternativa A)
 function questionA(){
 
   let numbers = []
@@ -50,7 +51,7 @@ function questionA(){
 let parameterNumber = questionA()
 
 
-
+//Alternativa B)
 function questionB(){
 
   let numbers = []
@@ -67,6 +68,7 @@ function questionB(){
 
 let funcB = questionB()
 
+//Alternativa C)
 function questionC(){
 
   let numbers = [0, 1, 4, 9, 16, 25, 36]
@@ -86,6 +88,7 @@ function questionC(){
 
 questionC()
 
+//Alternativa D)
 function questionD(){
 
   let numbers = [4, 16, 36, 64]
@@ -108,6 +111,7 @@ function questionD(){
 
 questionD()
 
+//Alternativa E)
 function questionE(){
 
   let numbers = [1, 1, 2, 3, 5, 8]
@@ -119,8 +123,9 @@ function questionE(){
   
 }
 
-//questionE()
+questionE()
 
+//Alternativa F)
 function questionF(){
 
   //Sequência númerica com base em um elemento não númerico
@@ -140,6 +145,8 @@ function questionF(){
 
 questionF()
 
+
+//Desafio 5 - Inversão de ums String
 function question5(text){
     let valueVoid = '';
 
